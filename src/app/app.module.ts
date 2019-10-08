@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms'
 
 import { AppComponent } from './app.component';
 import { ApplycreditcompComponent } from './applycreditcomp/applycreditcomp.component';
@@ -13,6 +14,7 @@ import { EmpLoginComponent } from './emplogincomp/emplogincomp.component';
 import { UserLoginComponent } from './userlogincomp/userlogincomp.component';
 import { DropDownDirective } from './shared/dropdown.service'
 import { BankingComponent } from './banking/banking.component'
+
 
 @NgModule({
   declarations: [
@@ -29,7 +31,7 @@ import { BankingComponent } from './banking/banking.component'
     BankingComponent
   ],
   imports: [
-    BrowserModule, AppRouting
+    BrowserModule, AppRouting, FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
