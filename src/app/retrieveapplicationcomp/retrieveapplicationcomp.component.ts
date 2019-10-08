@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-retrieveapplicationcomp',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class RetrieveapplicationcompComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) {}
+  find(): void {
+    this.router.navigateByUrl('applycredit');
+}
+
 
   ngOnInit() {
   }
