@@ -8,6 +8,11 @@ import { StatuscompComponent } from './statuscomp/statuscomp.component';
 import { RetrieveapplicationcompComponent } from './retrieveapplicationcomp/retrieveapplicationcomp.component';
 import { HeaderComponent } from './header.component';
 import { AppRouting } from './app.routing';
+import { LogoutComponent } from './logout/logoutcomp.component';
+import { EmpLoginComponent } from './emplogincomp/emplogincomp.component';
+import { UserLoginComponent } from './userlogincomp/userlogincomp.component';
+import { DropDownDirective } from './shared/dropdown.service'
+import { BankingComponent } from './banking/banking.component'
 
 @NgModule({
   declarations: [
@@ -17,6 +22,11 @@ import { AppRouting } from './app.routing';
     StatuscompComponent,
     RetrieveapplicationcompComponent,
     HeaderComponent,
+    LogoutComponent,
+    EmpLoginComponent,
+    UserLoginComponent,
+    DropDownDirective,
+    BankingComponent
   ],
   imports: [
     BrowserModule, AppRouting
