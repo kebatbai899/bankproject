@@ -21,4 +21,4 @@ export const AppRouting = RouterModule.forRoot ([
     {path:'header', component: HeaderComponent},
     {path:'banking', component: BankingComponent},
     
-])
+])                          
