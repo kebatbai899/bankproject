@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import {Router} from '@angular/router';
+
 
 @Component({
   selector: 'app-statuscomp',
@@ -7,7 +9,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class StatuscompComponent implements OnInit {
 
-  constructor() { }
+  constructor(private router: Router) {}
+  status(): void {
+    this.router.navigateByUrl('instantdecision');
+}
 
   ngOnInit() {
   }
