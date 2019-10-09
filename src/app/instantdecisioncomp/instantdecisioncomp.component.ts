@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+// import { Router } from '@angular/router';
 
 @Component({
   selector: 'app-instantdecisioncomp',
@@ -7,7 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class InstantdecisioncompComponent implements OnInit {
 
-  constructor() { }
+  showSubContent = 1;
+  constructor( ) {}
+  
+
+  
 
   ngOnInit() {
   }
